@@ -2,7 +2,7 @@ import { GetServerSideProps, NextPage } from "next";
 import { ReactNode, useEffect, useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 
-interface ApiResponse {
+type ApiResponse = {
     name: string
     timestamp: Date
 }
