@@ -34,7 +34,7 @@ const Dynamic: NextPage = (props: {
     return (
         <Container tag="main">
             <h1 className="my-5">
-            Como funcionam as rederrizações do Next.js
+            Como funcionam as renderizações do Next.js
             </h1>
 
             <Row>
